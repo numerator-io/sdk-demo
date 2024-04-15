@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/numerator-io/sdk-ios",
+      "state" : {
+        "revision" : "6138c458689cad58993804a746510eba986694f0",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
