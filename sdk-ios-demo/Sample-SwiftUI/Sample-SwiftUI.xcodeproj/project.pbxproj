@@ -11,6 +11,7 @@
 		A93E18602B95CF9B005C8F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93E185F2B95CF9B005C8F36 /* ContentView.swift */; };
 		A93E18622B95CF9C005C8F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93E18612B95CF9C005C8F36 /* Assets.xcassets */; };
 		A93E18652B95CF9C005C8F36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93E18642B95CF9C005C8F36 /* Preview Assets.xcassets */; };
+		A99544F12BCD270B00BAE53A /* Demo: Integrating numerator-sdk.coffee in Resources */ = {isa = PBXBuildFile; fileRef = A99544F02BCD270B00BAE53A /* Demo: Integrating numerator-sdk.coffee */; };
 		A9C250BF2BCA58150084F32D /* NumeratorSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A9C250BE2BCA58150084F32D /* NumeratorSDK */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		A93E18612B95CF9C005C8F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93E18642B95CF9C005C8F36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A949E4E42B96D676002DDB95 /* NumeratorSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NumeratorSDK.xcframework; path = ../../NumeratorSDK.xcframework; sourceTree = "<group>"; };
+		A99544F02BCD270B00BAE53A /* Demo: Integrating numerator-sdk.coffee */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Demo: Integrating numerator-sdk.coffee"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		A93E185C2B95CF9B005C8F36 /* Sample-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A99544F02BCD270B00BAE53A /* Demo: Integrating numerator-sdk.coffee */,
 				A93E185D2B95CF9B005C8F36 /* Sample_SwiftUIApp.swift */,
 				A93E185F2B95CF9B005C8F36 /* ContentView.swift */,
 				A93E18612B95CF9C005C8F36 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99544F12BCD270B00BAE53A /* Demo: Integrating numerator-sdk.coffee in Resources */,
 				A93E18652B95CF9C005C8F36 /* Preview Assets.xcassets in Resources */,
 				A93E18622B95CF9C005C8F36 /* Assets.xcassets in Resources */,
 			);
