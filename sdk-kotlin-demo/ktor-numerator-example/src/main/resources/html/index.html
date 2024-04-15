@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title_header">currentTitle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="title">currentTitle</h1>
+    <div id="image-container">
+        <img id="pet-image" src="" alt=currentTitle>
+    </div>
+    <input type="text" id="guess-input" style="display: inline;" placeholder="Enter your guess">
+    <button id="submit-btn" style="display: inline;"  onclick="checkGuess(document.getElementById('guess-input').value, land_pets)">Submit</button>
+    <p id="result"></p>
+    <button id="play-again-btn" style="display: none;" onclick="playAgain()">Play Again</button>
+    <p id="special-text" style="display: none; color: #80006f; font-weight: bold;">This is a rare animal!</p>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="error-message" style="display: none; color: red;"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
