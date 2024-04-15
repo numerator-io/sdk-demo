@@ -93,8 +93,10 @@ struct ContentView: View {
             resetGame()
           } else {
             checkGuess()
-            Task { @MainActor in
-              await getRareAnimal(with: guess)
+            if isWinGamge {
+              Task {
+                await getRareAnimal(with: guess)
+              }
             }
           }
         }) {
